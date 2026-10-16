@@ -43,7 +43,13 @@ results/<condition>_<seed>: LoRA adapter. base model을 함께 불러와 사용.
 
 ### 빠른 실행 결과
 
-RTX 4090에서 `Qwen/Qwen2.5-0.5B-Instruct`, train 2,000개, test 100개, epoch 1, batch size 1, seed 13으로 실행했습니다. 표의 EM/F1은 정답 문항 및 평가 template에 대한 평균입니다. `diverse_seen`은 평가 template 1–4, `diverse_unseen`은 5–8입니다.
+RTX 4090에서 `Qwen/Qwen2.5-0.5B-Instruct`, train 2,000개, test 100개, epoch 1, batch size 1, seed 13으로 실행했습니다. 표의 EM/F1은 각 평가군에 포함된 100개 질문 및 prompt template에 대한 평균입니다.
+
+- **단일 평가 (template 0):** 학습 prompt 다양성 효과와 target prompt 일치 효과를 보기 위한 기준 template 하나로 평가합니다.
+- **다양 평가 (templates 1–4):** 학습에서 사용한 prompt pool과 겹치거나 같은 pool의 다양한 template로 평가합니다. 특히 `diverse_other`는 이 pool로 학습하므로 seen-pool 일반화를 비교합니다.
+- **미관측 다양 평가 (templates 5–8):** 해당 fine-tuning 조건에서 학습에 사용하지 않은 별도 prompt pool로 평가합니다. 여기서 ‘미관측’은 fine-tuning 중 미사용을 뜻하며, 모델 사전학습에서도 보지 않았다는 의미는 아닙니다.
+
+각 평가군은 동일한 100개 질문에 적용되며, 여러 template이 있는 평가군은 질문별 template 점수를 평균합니다.
 
 | 학습 조건 | 단일 평가 (0) EM / F1 | 다양 평가 (1–4) EM / F1 | 미관측 다양 평가 (5–8) EM / F1 |
 |---|---:|---:|---:|
