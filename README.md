@@ -23,6 +23,8 @@ CUDA GPU와 Hugging Face 모델/데이터 다운로드 연결 필요. 기본 모
 | diverse_other | 1~4 균등 | 다른 template | 동일 pool | 다른 pool |
 | diverse_including_target | 0~3 균등 | 일부 동일 | 일부 동일 | 다른 pool |
 
+※ `diverse_including_target`의 학습 pool `0~3`은 template ID 0, 1, 2, 3을 뜻합니다. target인 0을 포함하고 seen 평가 pool(1~4)과는 1~3이 겹치며, template 4는 학습에서 사용하지 않습니다. 반면 `diverse_other`는 1~4로 학습하며 target 0은 제외합니다.
+
 요청 1: 다양한 프롬프트 테스트에서 diverse_other와 single_other 비교. 평가 1~4는 seen-pool, 5~8은 unseen-pool 결과로 별도 해석.
 요청 2: 단일 프롬프트 테스트(0)에서 diverse_other와 single_target 비교. single_other와 diverse_including_target을 함께 봐야 다양성 효과와 template 일치 효과를 구분 가능.
 
