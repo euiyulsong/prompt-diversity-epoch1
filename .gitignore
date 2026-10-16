@@ -3,5 +3,7 @@ __pycache__/
 *.py[cod]
 .cache/
 hf_cache/
+torch/
+torch-*.dist-info/
 results/
 results_environment.txt
