@@ -3,3 +3,5 @@ __pycache__/
 *.py[cod]
 .cache/
 hf_cache/
+results/
+results_environment.txt
