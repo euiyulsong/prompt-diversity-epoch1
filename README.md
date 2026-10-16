@@ -1,6 +1,6 @@
 # 학습 프롬프트 다양성 × 평가 프롬프트 다양성
 
-실행 가능한 실험 키트입니다. 학습 결과는 포함하지 않습니다.
+실행 가능한 실험 키트와 epoch 1, batch size 1 실험 결과를 포함합니다.
 
 ## 실행
 ```bash
@@ -41,12 +41,26 @@ results/pred_*.json: 질문 ID, template ID, 예측, 정답, EM/F1.
 results/config.json 및 data.json: 설정/선택 데이터와 ID, 프롬프트.
 results/<condition>_<seed>: LoRA adapter. base model을 함께 불러와 사용.
 
+### 빠른 실행 결과
+
+RTX 4090에서 `Qwen/Qwen2.5-0.5B-Instruct`, train 2,000개, test 100개, epoch 1, batch size 1, seed 13으로 실행했습니다. 표의 EM/F1은 정답 문항 및 평가 template에 대한 평균입니다. `diverse_seen`은 평가 template 1–4, `diverse_unseen`은 5–8입니다.
+
+| 학습 조건 | 단일 평가 (0) EM / F1 | 다양 평가 (1–4) EM / F1 | 미관측 다양 평가 (5–8) EM / F1 |
+|---|---:|---:|---:|
+| base (학습 없음) | 0.520 / 0.676 | 0.345 / 0.528 | 0.233 / 0.416 |
+| single_target | 0.720 / 0.819 | 0.663 / 0.772 | 0.510 / 0.614 |
+| single_other | 0.690 / 0.804 | 0.678 / 0.799 | 0.500 / 0.610 |
+| diverse_other | 0.690 / 0.787 | 0.690 / 0.800 | 0.515 / 0.617 |
+| diverse_including_target | 0.710 / 0.814 | 0.710 / 0.817 | 0.545 / 0.643 |
+
+이 결과는 단일 seed의 탐색적 실행이며, 통계적 결론이나 조건 간 유의성 검정을 제공하지 않습니다. 자세한 지표는 [`results/metrics.csv`](results/metrics.csv), 질문 단위 예측은 `results/pred_*.json`, 설정 및 결과 전체는 [`results/summary.json`](results/summary.json)과 `results/config.json`에 있습니다.
+
 EM은 SQuAD식 소문자/구두점/관사/공백 정규화, 정답 alias 중 최고 점수. token F1도 기록. 설명을 붙이면 EM이 낮아지는 것이 의도된 출력 계약. 평가군 EM CI는 질문 단위 cluster bootstrap으로 계산하며 seed별 CI임. seed std는 학습 변동성이고 CI와 다름. 조건 간 유의성 검정은 포함하지 않음. 100문항은 탐색용이라 작은 차이에 결론 내리지 말 것. 최종 비교는 --test-n 500 이상 및 여러 단일 template/새 prompt pool 반복을 권장.
 
 미관측은 '이 fine-tuning에서 사용하지 않은 template'를 뜻하며 모델 사전학습에서 보지 않았다는 뜻은 아님. 사전학습 데이터 오염 가능성도 남아 있음. 이 실험은 단일 task 영어 extractive QA의 표면적 instruction 다양성만 측정. 한국어/생성형 답변/멀티태스크로 바로 일반화하지 말 것.
 
 ## 확인한 범위
-Python 문법과 pure-Python metric 함수/프롬프트 구성 확인. 이 제작 환경에는 CUDA가 없어 모델 로드, SFT, 실제 평가를 실행하지 않음. 실측 수치는 없음.
+위의 epoch 1 실험은 CUDA GPU에서 실제 학습과 평가를 실행했습니다. Python 문법과 pure-Python metric 함수/프롬프트 구성도 확인했습니다.
 
 참고: https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct
 https://huggingface.co/docs/peft/package_reference/lora
