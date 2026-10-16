@@ -3,450 +3,450 @@
     "condition": "base",
     "seed": 0,
     "test": "single_target",
-    "em": 0.5,
-    "f1": 0.6166666666666667,
-    "em_ci_low": 0.125,
-    "em_ci_high": 0.875
+    "em": 0.52,
+    "f1": 0.676005382005382,
+    "em_ci_low": 0.42,
+    "em_ci_high": 0.62
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "diverse_seen",
-    "em": 0.25,
-    "f1": 0.39852911053085205,
-    "em_ci_low": 0.0625,
-    "em_ci_high": 0.46875
+    "em": 0.345,
+    "f1": 0.528391569685828,
+    "em_ci_low": 0.28,
+    "em_ci_high": 0.4125
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "diverse_unseen",
-    "em": 0.25,
-    "f1": 0.38318623580413735,
-    "em_ci_low": 0.0625,
-    "em_ci_high": 0.46875
+    "em": 0.2325,
+    "f1": 0.41642600938843516,
+    "em_ci_low": 0.18,
+    "em_ci_high": 0.29
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "prompt_0",
-    "em": 0.5,
-    "f1": 0.6166666666666667
+    "em": 0.52,
+    "f1": 0.676005382005382
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "prompt_1",
-    "em": 0.375,
-    "f1": 0.5144230769230769
+    "em": 0.45,
+    "f1": 0.6049168598769178
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "prompt_2",
-    "em": 0.25,
-    "f1": 0.41025641025641024
+    "em": 0.32,
+    "f1": 0.5217904151801174
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "prompt_3",
-    "em": 0.375,
-    "f1": 0.4375
+    "em": 0.53,
+    "f1": 0.6523502900748892
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "prompt_4",
-    "em": 0.0,
-    "f1": 0.2319369549439209
+    "em": 0.08,
+    "f1": 0.33450871361138745
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "prompt_5",
-    "em": 0.5,
-    "f1": 0.5852272727272727
+    "em": 0.38,
+    "f1": 0.49938937696290636
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "prompt_6",
-    "em": 0.125,
-    "f1": 0.3361492673992674
+    "em": 0.1,
+    "f1": 0.31591103502767703
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "prompt_7",
-    "em": 0.25,
-    "f1": 0.2919581138907176
+    "em": 0.2,
+    "f1": 0.3785327375399713
   },
   {
     "condition": "base",
     "seed": 0,
     "test": "prompt_8",
-    "em": 0.125,
-    "f1": 0.31941028919929176
+    "em": 0.25,
+    "f1": 0.4718708880231859
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "single_target",
-    "em": 0.5,
-    "f1": 0.5,
-    "em_ci_low": 0.125,
-    "em_ci_high": 0.875
+    "em": 0.72,
+    "f1": 0.8186510482981072,
+    "em_ci_low": 0.63,
+    "em_ci_high": 0.8
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "diverse_seen",
-    "em": 0.3125,
-    "f1": 0.46657512701436854,
-    "em_ci_low": 0.125,
-    "em_ci_high": 0.5
+    "em": 0.6625,
+    "f1": 0.7720908105484718,
+    "em_ci_low": 0.575,
+    "em_ci_high": 0.745
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "diverse_unseen",
-    "em": 0.28125,
-    "f1": 0.3769859217254166,
-    "em_ci_low": 0.0625,
-    "em_ci_high": 0.5625
+    "em": 0.51,
+    "f1": 0.614327977838323,
+    "em_ci_low": 0.4425,
+    "em_ci_high": 0.585
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "prompt_0",
-    "em": 0.5,
-    "f1": 0.5
+    "em": 0.72,
+    "f1": 0.8186510482981072
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "prompt_1",
-    "em": 0.5,
-    "f1": 0.5
+    "em": 0.68,
+    "f1": 0.7827592685092685
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "prompt_2",
-    "em": 0.25,
-    "f1": 0.4935897435897436
+    "em": 0.68,
+    "f1": 0.7868055648055647
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "prompt_3",
-    "em": 0.5,
-    "f1": 0.5625
+    "em": 0.67,
+    "f1": 0.7789900377400377
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "prompt_4",
-    "em": 0.0,
-    "f1": 0.31021076446773044
+    "em": 0.62,
+    "f1": 0.7398083711390163
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "prompt_5",
-    "em": 0.375,
-    "f1": 0.3977272727272727
+    "em": 0.66,
+    "f1": 0.774286334036334
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "prompt_6",
-    "em": 0.125,
-    "f1": 0.31924763832658565
+    "em": 0.32,
+    "f1": 0.4340801571081196
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "prompt_7",
-    "em": 0.25,
-    "f1": 0.2661290322580645
+    "em": 0.37,
+    "f1": 0.46053155139791085
   },
   {
     "condition": "single_target",
     "seed": 13,
     "test": "prompt_8",
-    "em": 0.375,
-    "f1": 0.5248397435897436
+    "em": 0.69,
+    "f1": 0.7884138688109278
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "single_target",
-    "em": 0.5,
-    "f1": 0.6,
-    "em_ci_low": 0.125,
-    "em_ci_high": 0.875
+    "em": 0.69,
+    "f1": 0.8035039972814908,
+    "em_ci_low": 0.6,
+    "em_ci_high": 0.78
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "diverse_seen",
-    "em": 0.46875,
-    "f1": 0.5308662280701755,
-    "em_ci_low": 0.1875,
-    "em_ci_high": 0.75
+    "em": 0.6775,
+    "f1": 0.7991447156258538,
+    "em_ci_low": 0.59,
+    "em_ci_high": 0.7625
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "diverse_unseen",
-    "em": 0.40625,
-    "f1": 0.42621753246753247,
-    "em_ci_low": 0.15625,
-    "em_ci_high": 0.6875
+    "em": 0.5,
+    "f1": 0.6096995168175279,
+    "em_ci_low": 0.4299375,
+    "em_ci_high": 0.5775
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "prompt_0",
-    "em": 0.5,
-    "f1": 0.6
+    "em": 0.69,
+    "f1": 0.8035039972814908
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "prompt_1",
-    "em": 0.625,
-    "f1": 0.625
+    "em": 0.68,
+    "f1": 0.8095220661691249
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "prompt_2",
-    "em": 0.375,
-    "f1": 0.4583333333333333
+    "em": 0.68,
+    "f1": 0.7926859066859067
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "prompt_3",
-    "em": 0.5,
-    "f1": 0.5
+    "em": 0.66,
+    "f1": 0.7929195020665608
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "prompt_4",
-    "em": 0.375,
-    "f1": 0.5401315789473684
+    "em": 0.69,
+    "f1": 0.8014513875818223
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "prompt_5",
-    "em": 0.375,
-    "f1": 0.3977272727272727
+    "em": 0.67,
+    "f1": 0.7836253006253006
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "prompt_6",
-    "em": 0.375,
-    "f1": 0.3821428571428571
+    "em": 0.29,
+    "f1": 0.40831149588942267
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "prompt_7",
-    "em": 0.25,
-    "f1": 0.3
+    "em": 0.37,
+    "f1": 0.44593749518455406
   },
   {
     "condition": "single_other",
     "seed": 13,
     "test": "prompt_8",
-    "em": 0.625,
-    "f1": 0.625
+    "em": 0.67,
+    "f1": 0.8009237755708344
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "single_target",
-    "em": 0.5,
-    "f1": 0.6,
-    "em_ci_low": 0.125,
-    "em_ci_high": 0.875
+    "em": 0.69,
+    "f1": 0.7866437222907812,
+    "em_ci_low": 0.6,
+    "em_ci_high": 0.78
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "diverse_seen",
-    "em": 0.40625,
-    "f1": 0.4270833333333333,
-    "em_ci_low": 0.125,
-    "em_ci_high": 0.6882812499999957
+    "em": 0.69,
+    "f1": 0.7999473236458532,
+    "em_ci_low": 0.6024375000000001,
+    "em_ci_high": 0.7775624999999996
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "diverse_unseen",
-    "em": 0.40625,
-    "f1": 0.4796401515151515,
-    "em_ci_low": 0.18671875000000004,
-    "em_ci_high": 0.65625
+    "em": 0.515,
+    "f1": 0.6169292344909991,
+    "em_ci_low": 0.44,
+    "em_ci_high": 0.59
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "prompt_0",
-    "em": 0.5,
-    "f1": 0.6
+    "em": 0.69,
+    "f1": 0.7866437222907812
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "prompt_1",
-    "em": 0.5,
-    "f1": 0.5
+    "em": 0.68,
+    "f1": 0.7971595953066541
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "prompt_2",
-    "em": 0.25,
-    "f1": 0.3333333333333333
+    "em": 0.69,
+    "f1": 0.8003525733525734
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "prompt_3",
-    "em": 0.5,
-    "f1": 0.5
+    "em": 0.68,
+    "f1": 0.7913689970160559
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "prompt_4",
-    "em": 0.375,
-    "f1": 0.375
+    "em": 0.71,
+    "f1": 0.8109081289081288
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "prompt_5",
-    "em": 0.25,
-    "f1": 0.356060606060606
+    "em": 0.69,
+    "f1": 0.80201924001924
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "prompt_6",
-    "em": 0.5,
-    "f1": 0.5208333333333334
+    "em": 0.34,
+    "f1": 0.44382350242350244
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "prompt_7",
-    "em": 0.25,
-    "f1": 0.3
+    "em": 0.35,
+    "f1": 0.4278898138898139
   },
   {
     "condition": "diverse_other",
     "seed": 13,
     "test": "prompt_8",
-    "em": 0.625,
-    "f1": 0.7416666666666667
+    "em": 0.68,
+    "f1": 0.7939843816314405
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "single_target",
-    "em": 0.375,
-    "f1": 0.5916666666666667,
-    "em_ci_low": 0.125,
-    "em_ci_high": 0.75
+    "em": 0.71,
+    "f1": 0.8141185807656396,
+    "em_ci_low": 0.62,
+    "em_ci_high": 0.8
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "diverse_seen",
-    "em": 0.4375,
-    "f1": 0.5083333333333333,
-    "em_ci_low": 0.125,
-    "em_ci_high": 0.75
+    "em": 0.71,
+    "f1": 0.8169171547406842,
+    "em_ci_low": 0.625,
+    "em_ci_high": 0.7925
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "diverse_unseen",
-    "em": 0.40625,
-    "f1": 0.44184253246753247,
-    "em_ci_low": 0.15625,
-    "em_ci_high": 0.6875
+    "em": 0.545,
+    "f1": 0.6425906785995394,
+    "em_ci_low": 0.47743749999999996,
+    "em_ci_high": 0.6175
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "prompt_0",
-    "em": 0.375,
-    "f1": 0.5916666666666667
+    "em": 0.71,
+    "f1": 0.8141185807656396
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "prompt_1",
-    "em": 0.5,
-    "f1": 0.5
+    "em": 0.71,
+    "f1": 0.8251832611832611
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "prompt_2",
-    "em": 0.375,
-    "f1": 0.4833333333333333
+    "em": 0.7,
+    "f1": 0.8056510482981071
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "prompt_3",
-    "em": 0.5,
-    "f1": 0.5625
+    "em": 0.72,
+    "f1": 0.8159451659451659
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "prompt_4",
-    "em": 0.375,
-    "f1": 0.4875
+    "em": 0.71,
+    "f1": 0.8208891435362022
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "prompt_5",
-    "em": 0.375,
-    "f1": 0.3977272727272727
+    "em": 0.71,
+    "f1": 0.81847156111862
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "prompt_6",
-    "em": 0.375,
-    "f1": 0.3821428571428571
+    "em": 0.35,
+    "f1": 0.47294936080497174
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "prompt_7",
-    "em": 0.25,
-    "f1": 0.3
+    "em": 0.44,
+    "f1": 0.4949574108431252
   },
   {
     "condition": "diverse_including_target",
     "seed": 13,
     "test": "prompt_8",
-    "em": 0.625,
-    "f1": 0.6875
+    "em": 0.68,
+    "f1": 0.7839843816314405
   }
 ]
