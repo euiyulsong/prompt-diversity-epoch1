@@ -1,0 +1,107 @@
+[
+  {
+    "condition": "base",
+    "test": "single_target",
+    "em_mean": 0.5,
+    "em_seed_std": null,
+    "f1_mean": 0.6166666666666667
+  },
+  {
+    "condition": "base",
+    "test": "diverse_seen",
+    "em_mean": 0.25,
+    "em_seed_std": null,
+    "f1_mean": 0.39852911053085205
+  },
+  {
+    "condition": "base",
+    "test": "diverse_unseen",
+    "em_mean": 0.25,
+    "em_seed_std": null,
+    "f1_mean": 0.38318623580413735
+  },
+  {
+    "condition": "diverse_including_target",
+    "test": "single_target",
+    "em_mean": 0.375,
+    "em_seed_std": null,
+    "f1_mean": 0.5916666666666667
+  },
+  {
+    "condition": "diverse_including_target",
+    "test": "diverse_seen",
+    "em_mean": 0.4375,
+    "em_seed_std": null,
+    "f1_mean": 0.5083333333333333
+  },
+  {
+    "condition": "diverse_including_target",
+    "test": "diverse_unseen",
+    "em_mean": 0.40625,
+    "em_seed_std": null,
+    "f1_mean": 0.44184253246753247
+  },
+  {
+    "condition": "diverse_other",
+    "test": "single_target",
+    "em_mean": 0.5,
+    "em_seed_std": null,
+    "f1_mean": 0.6
+  },
+  {
+    "condition": "diverse_other",
+    "test": "diverse_seen",
+    "em_mean": 0.40625,
+    "em_seed_std": null,
+    "f1_mean": 0.4270833333333333
+  },
+  {
+    "condition": "diverse_other",
+    "test": "diverse_unseen",
+    "em_mean": 0.40625,
+    "em_seed_std": null,
+    "f1_mean": 0.4796401515151515
+  },
+  {
+    "condition": "single_other",
+    "test": "single_target",
+    "em_mean": 0.5,
+    "em_seed_std": null,
+    "f1_mean": 0.6
+  },
+  {
+    "condition": "single_other",
+    "test": "diverse_seen",
+    "em_mean": 0.46875,
+    "em_seed_std": null,
+    "f1_mean": 0.5308662280701755
+  },
+  {
+    "condition": "single_other",
+    "test": "diverse_unseen",
+    "em_mean": 0.40625,
+    "em_seed_std": null,
+    "f1_mean": 0.42621753246753247
+  },
+  {
+    "condition": "single_target",
+    "test": "single_target",
+    "em_mean": 0.5,
+    "em_seed_std": null,
+    "f1_mean": 0.5
+  },
+  {
+    "condition": "single_target",
+    "test": "diverse_seen",
+    "em_mean": 0.3125,
+    "em_seed_std": null,
+    "f1_mean": 0.46657512701436854
+  },
+  {
+    "condition": "single_target",
+    "test": "diverse_unseen",
+    "em_mean": 0.28125,
+    "em_seed_std": null,
+    "f1_mean": 0.3769859217254166
+  }
+]

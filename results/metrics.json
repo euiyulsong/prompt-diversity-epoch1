@@ -1,0 +1,452 @@
+[
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "single_target",
+    "em": 0.5,
+    "f1": 0.6166666666666667,
+    "em_ci_low": 0.125,
+    "em_ci_high": 0.875
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "diverse_seen",
+    "em": 0.25,
+    "f1": 0.39852911053085205,
+    "em_ci_low": 0.0625,
+    "em_ci_high": 0.46875
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "diverse_unseen",
+    "em": 0.25,
+    "f1": 0.38318623580413735,
+    "em_ci_low": 0.0625,
+    "em_ci_high": 0.46875
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "prompt_0",
+    "em": 0.5,
+    "f1": 0.6166666666666667
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "prompt_1",
+    "em": 0.375,
+    "f1": 0.5144230769230769
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "prompt_2",
+    "em": 0.25,
+    "f1": 0.41025641025641024
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "prompt_3",
+    "em": 0.375,
+    "f1": 0.4375
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "prompt_4",
+    "em": 0.0,
+    "f1": 0.2319369549439209
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "prompt_5",
+    "em": 0.5,
+    "f1": 0.5852272727272727
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "prompt_6",
+    "em": 0.125,
+    "f1": 0.3361492673992674
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "prompt_7",
+    "em": 0.25,
+    "f1": 0.2919581138907176
+  },
+  {
+    "condition": "base",
+    "seed": 0,
+    "test": "prompt_8",
+    "em": 0.125,
+    "f1": 0.31941028919929176
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "single_target",
+    "em": 0.5,
+    "f1": 0.5,
+    "em_ci_low": 0.125,
+    "em_ci_high": 0.875
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "diverse_seen",
+    "em": 0.3125,
+    "f1": 0.46657512701436854,
+    "em_ci_low": 0.125,
+    "em_ci_high": 0.5
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "diverse_unseen",
+    "em": 0.28125,
+    "f1": 0.3769859217254166,
+    "em_ci_low": 0.0625,
+    "em_ci_high": 0.5625
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "prompt_0",
+    "em": 0.5,
+    "f1": 0.5
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "prompt_1",
+    "em": 0.5,
+    "f1": 0.5
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "prompt_2",
+    "em": 0.25,
+    "f1": 0.4935897435897436
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "prompt_3",
+    "em": 0.5,
+    "f1": 0.5625
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "prompt_4",
+    "em": 0.0,
+    "f1": 0.31021076446773044
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "prompt_5",
+    "em": 0.375,
+    "f1": 0.3977272727272727
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "prompt_6",
+    "em": 0.125,
+    "f1": 0.31924763832658565
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "prompt_7",
+    "em": 0.25,
+    "f1": 0.2661290322580645
+  },
+  {
+    "condition": "single_target",
+    "seed": 13,
+    "test": "prompt_8",
+    "em": 0.375,
+    "f1": 0.5248397435897436
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "single_target",
+    "em": 0.5,
+    "f1": 0.6,
+    "em_ci_low": 0.125,
+    "em_ci_high": 0.875
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "diverse_seen",
+    "em": 0.46875,
+    "f1": 0.5308662280701755,
+    "em_ci_low": 0.1875,
+    "em_ci_high": 0.75
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "diverse_unseen",
+    "em": 0.40625,
+    "f1": 0.42621753246753247,
+    "em_ci_low": 0.15625,
+    "em_ci_high": 0.6875
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "prompt_0",
+    "em": 0.5,
+    "f1": 0.6
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "prompt_1",
+    "em": 0.625,
+    "f1": 0.625
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "prompt_2",
+    "em": 0.375,
+    "f1": 0.4583333333333333
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "prompt_3",
+    "em": 0.5,
+    "f1": 0.5
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "prompt_4",
+    "em": 0.375,
+    "f1": 0.5401315789473684
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "prompt_5",
+    "em": 0.375,
+    "f1": 0.3977272727272727
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "prompt_6",
+    "em": 0.375,
+    "f1": 0.3821428571428571
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "prompt_7",
+    "em": 0.25,
+    "f1": 0.3
+  },
+  {
+    "condition": "single_other",
+    "seed": 13,
+    "test": "prompt_8",
+    "em": 0.625,
+    "f1": 0.625
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "single_target",
+    "em": 0.5,
+    "f1": 0.6,
+    "em_ci_low": 0.125,
+    "em_ci_high": 0.875
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "diverse_seen",
+    "em": 0.40625,
+    "f1": 0.4270833333333333,
+    "em_ci_low": 0.125,
+    "em_ci_high": 0.6882812499999957
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "diverse_unseen",
+    "em": 0.40625,
+    "f1": 0.4796401515151515,
+    "em_ci_low": 0.18671875000000004,
+    "em_ci_high": 0.65625
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "prompt_0",
+    "em": 0.5,
+    "f1": 0.6
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "prompt_1",
+    "em": 0.5,
+    "f1": 0.5
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "prompt_2",
+    "em": 0.25,
+    "f1": 0.3333333333333333
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "prompt_3",
+    "em": 0.5,
+    "f1": 0.5
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "prompt_4",
+    "em": 0.375,
+    "f1": 0.375
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "prompt_5",
+    "em": 0.25,
+    "f1": 0.356060606060606
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "prompt_6",
+    "em": 0.5,
+    "f1": 0.5208333333333334
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "prompt_7",
+    "em": 0.25,
+    "f1": 0.3
+  },
+  {
+    "condition": "diverse_other",
+    "seed": 13,
+    "test": "prompt_8",
+    "em": 0.625,
+    "f1": 0.7416666666666667
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "single_target",
+    "em": 0.375,
+    "f1": 0.5916666666666667,
+    "em_ci_low": 0.125,
+    "em_ci_high": 0.75
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "diverse_seen",
+    "em": 0.4375,
+    "f1": 0.5083333333333333,
+    "em_ci_low": 0.125,
+    "em_ci_high": 0.75
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "diverse_unseen",
+    "em": 0.40625,
+    "f1": 0.44184253246753247,
+    "em_ci_low": 0.15625,
+    "em_ci_high": 0.6875
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "prompt_0",
+    "em": 0.375,
+    "f1": 0.5916666666666667
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "prompt_1",
+    "em": 0.5,
+    "f1": 0.5
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "prompt_2",
+    "em": 0.375,
+    "f1": 0.4833333333333333
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "prompt_3",
+    "em": 0.5,
+    "f1": 0.5625
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "prompt_4",
+    "em": 0.375,
+    "f1": 0.4875
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "prompt_5",
+    "em": 0.375,
+    "f1": 0.3977272727272727
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "prompt_6",
+    "em": 0.375,
+    "f1": 0.3821428571428571
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "prompt_7",
+    "em": 0.25,
+    "f1": 0.3
+  },
+  {
+    "condition": "diverse_including_target",
+    "seed": 13,
+    "test": "prompt_8",
+    "em": 0.625,
+    "f1": 0.6875
+  }
+]
