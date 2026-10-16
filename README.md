@@ -63,6 +63,13 @@ RTX 4090에서 `Qwen/Qwen2.5-0.5B-Instruct`, train 2,000개, test 100개, epoch 
 
 이 결과는 단일 seed의 탐색적 실행이며, 통계적 결론이나 조건 간 유의성 검정을 제공하지 않습니다. 자세한 지표는 [`results/metrics.csv`](results/metrics.csv), 질문 단위 예측은 `results/pred_*.json`, 설정 및 결과 전체는 [`results/summary.json`](results/summary.json)과 `results/config.json`에 있습니다.
 
+### 결과 해석
+
+- 다양 평가(1–4)에서 `diverse_other`의 EM/F1은 **0.690/0.800**, `single_other`는 **0.678/0.799**였습니다. 이 작은 차이만으로 diverse training의 우위를 주장할 수는 없습니다.
+- 미관측 다양 평가(5–8)에서 `diverse_other`는 **0.515/0.617**, `single_other`는 **0.500/0.610**이었습니다. 미관측 prompt pool로의 일반화가 관찰되지만, 차이는 작고 seed가 하나라 확정적인 결론은 어렵습니다.
+- 단일 평가(0)에서 `single_target`은 **0.720/0.819**, `diverse_including_target`은 **0.710/0.814**, `diverse_other`는 **0.690/0.787**이었습니다. target prompt로만 학습한 조건이 이 실행에서 가장 높았습니다. `diverse_including_target`과 `diverse_other`의 차이는 target prompt 포함 효과와 pool 구성 차이가 함께 반영되므로 인과 효과로 단정하지 않습니다.
+- `diverse_including_target`은 다양 평가에서 **0.710/0.817**, 미관측 평가에서 **0.545/0.643**으로 이 표에서 가장 높았지만, 단일 seed의 탐색 결과이므로 후속 seed 반복으로 확인이 필요합니다.
+
 EM은 SQuAD식 소문자/구두점/관사/공백 정규화, 정답 alias 중 최고 점수. token F1도 기록. 설명을 붙이면 EM이 낮아지는 것이 의도된 출력 계약. 평가군 EM CI는 질문 단위 cluster bootstrap으로 계산하며 seed별 CI임. seed std는 학습 변동성이고 CI와 다름. 조건 간 유의성 검정은 포함하지 않음. 100문항은 탐색용이라 작은 차이에 결론 내리지 말 것. 최종 비교는 --test-n 500 이상 및 여러 단일 template/새 prompt pool 반복을 권장.
 
 미관측은 '이 fine-tuning에서 사용하지 않은 template'를 뜻하며 모델 사전학습에서 보지 않았다는 뜻은 아님. 사전학습 데이터 오염 가능성도 남아 있음. 이 실험은 단일 task 영어 extractive QA의 표면적 instruction 다양성만 측정. 한국어/생성형 답변/멀티태스크로 바로 일반화하지 말 것.
